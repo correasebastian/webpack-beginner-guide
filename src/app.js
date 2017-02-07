@@ -1,4 +1,7 @@
 // src/app.js
+if (module.hot) {
+  module.hot.accept()
+}
 import './styles.scss'
 import {groupBy} from 'lodash/collection'
 
